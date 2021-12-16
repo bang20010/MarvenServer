@@ -25,6 +25,8 @@ class HttpParserTest
 				
 			}
 		
+		
+		
 		@Test
 		void parseHttpRequest() 
 		{
@@ -54,7 +56,7 @@ class HttpParserTest
 						+ "\r\n";
 				InputStream inputStream = new ByteArrayInputStream(
 							rawData.getBytes(
-								StandardCharsets.US_ASCII	)
+								StandardCharsets.UTF_8	)
 							);
 				
 				return inputStream;
