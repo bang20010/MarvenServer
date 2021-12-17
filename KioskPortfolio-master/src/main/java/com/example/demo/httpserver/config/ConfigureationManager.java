@@ -71,7 +71,7 @@ public class ConfigureationManager
 				} 
 			catch (JsonProcessingException e) 
 				{
-				throw new HttpConfigurationException("Error parsing the Configuration file, inertnal",e);
+					throw new HttpConfigurationException("Error parsing the Configuration file, inertnal",e);
 				}
 			 
 		}
